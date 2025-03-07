@@ -6,5 +6,10 @@ pipeline {
         echo 'Hello Pipeline'
       }
     }
+    stage("move file"){
+      steps {
+        echo 'test'
+      }
+    }
   }
 }
